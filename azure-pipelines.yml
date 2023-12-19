@@ -11,13 +11,13 @@ variables:
   azureServiceConnectionId: '808ac1ce-8316-4acf-bad2-8312d3bc8515'
 
   # Web app name
-  webAppName: 'surendra-test'
+  webAppName: 'surendra-todo'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: 'surendra-test'
+  environmentName: 'surendra-todo'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
